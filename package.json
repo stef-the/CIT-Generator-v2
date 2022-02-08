@@ -27,6 +27,6 @@
   "dependencies": {
     "page": "^1.11.6",
     "sirv-cli": "^2.0.0",
-    "svelte-i18n": "^3.3.13",
+    "svelte-i18n": "^3.3.13"
   }
 }
