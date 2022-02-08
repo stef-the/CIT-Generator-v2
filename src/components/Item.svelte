@@ -1,5 +1,4 @@
 <script>
-	import { Link } from "svelte-routing";
 	function download(data, filename, type) {
 		var file = new Blob([data], { type: type });
 		if (window.navigator.msSaveOrOpenBlob)
@@ -37,9 +36,7 @@
 
 <main>
 	<h1 class="box-inner">
-		<Link to="/" class="linkto">
-			Item CIT Generator
-		</Link>
+		<a class="linkto" href="/">Item CIT Generator</a>
 	</h1>
 	<div class="linebreak" />
 	<form autocomplete="off">
