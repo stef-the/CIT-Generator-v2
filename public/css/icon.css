@@ -1,0 +1,19 @@
+h1 {
+	color: #ff3e00;
+	font-size: 4em;
+	font-weight: 100;
+	padding: 1rem;
+	padding-bottom: 0.25rem;
+	margin-bottom: 4.75rem;
+	border-bottom: 0.1rem solid transparent;
+	cursor: pointer;
+}
+
+h1:hover {
+	border-bottom: 0.1rem solid #ff3e00;
+}
+
+a.linkto {
+	text-decoration: none;
+	color: inherit;
+}
